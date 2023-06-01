@@ -1,0 +1,488 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing:border-box;
+}
+.ban{
+    height:100vh;
+    width:100%;
+    background-image: url("b1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.footer{
+    margin-top: 80px;
+    background-color: rgb(21, 74, 74);
+}
+
+.foot{
+    padding: 20px 0;
+}
+
+.footer-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.footlinks h4{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+
+.footlinks h4::before{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 70px;
+    left: 0;
+    bottom: -7px;
+    background: white;
+}
+
+.footlinks ul li{
+    margin-bottom: 15px;
+}
+
+.footlinks ul li a{
+    font-size: 17px;
+    color: #dddddd;
+    display: block;
+    transition: ease 0.30s;
+}
+
+.footlinks ul li a:hover{
+    transform: translate(6px);
+    color: white;
+}
+
+.social a{
+    font-size: 25px;
+    margin: 4px;
+    height: 40px;
+    width: 40px;
+    color: rgb(21, 74, 74);
+    background-color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    transition: ease 0.30s;
+}
+
+.social a:hover{
+    transform: scale(1.2);
+}
+
+.end{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 12px;
+}
+
+.end p{
+    font-size: 15px;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+/* About Us */
+
+.aboutbody{
+    background-color: #191919;
+}
+
+.about{
+    width: 100%;
+}
+
+.about img{
+    height: auto;
+    width: 400px;
+}
+
+.abt-text{
+    width: 500px;
+}
+
+.abt-text h1{
+    font-size: 70px;
+    color: black;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.abt-text h1 span{
+    color: #fc0050;
+    letter-spacing: 1px;
+}
+
+.abt-text p{
+    color: black;
+    font-size: 24px;
+    margin-bottom: 10px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+.main{
+    width:2000px;
+    max-width: 95%;
+    margin:0 auto;
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+}
+.connect-section{
+    margin-top: 26px;
+}
+
+
+.social-icons a{
+    height: 40px;
+    width: 40px;
+    margin: 4px;
+    font-size: 30px;
+    color: #101010;
+    background-color: white;
+    border-radius: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease 0.30s;
+}
+
+.social-icons a:hover{
+    transform: scale(1.2);
+}
+
+/* Contact Us */
+
+.contactbody{
+    background-color: #101010;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.contact{
+    padding: 110px 30%;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.contact-form h1{
+    font-size: 80px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.contact-form h1 span{
+    color:#fc0050;
+}
+
+.contact-form p{
+    color: white;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+
+.contact-form form input,form textarea{
+    width: 100%;
+    padding: 17px;
+    border: none;
+    outline: none;
+    background-color: #191919;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.contact-form form .submit-btn{
+    display: inline-block;
+    background-color: #fc0050;
+    font-size: 27px;
+    font-weight: 600px;
+    border: 2px solid transparent;
+    border-radius: 40px;
+    width: 220px;
+    cursor: pointer;
+    transition: ease 0.30s;
+
+}
+
+.contact-form form .submit-btn:hover{
+    border: 2px solid #fc0050;
+    background-color: transparent;
+    transform: scale(1.1);
+
+}
+
+/* Registration Form */
+
+.register-body{
+    background-color: #101010;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.registration{
+    padding: 110px 30%;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.register-form h1{
+    font-size: 80px;
+    color: white;
+    margin-bottom: 20px;
+}
+.register-form h1 span{
+    color: #fc0050;
+}
+
+.register-form{
+    color: white;
+    font-size: 20px;
+}
+
+.register-form form input{
+    color: white;
+    padding: 17px;
+    background-color: #191919;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+}
+.register-form h4{
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: #fc0050;
+}
+
+
+.register-form form .submitbtn{
+    display: inline-block;
+    background-color: #fc0050;
+    font-size: 27px;
+    font-weight: 600px;
+    border: 2px solid transparent;
+    border-radius: 60px;
+    width: 220px;
+    cursor: pointer;
+    transition: ease 0.30s;
+}
+
+.register-form form .submitbtn:hover{
+    border: 2px solid #fc0050;
+    background-color: transparent;
+    transform: scale(1.1);
+}
+
+
+.location-body{
+    background-color: #191919;
+    color: white;
+}
+
+.location-section{
+    padding: 110px;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.location-heading h1{
+    margin-top: 20px;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.location-heading h1 span{
+    color: #fc0050;
+}
+
+.location-detail h1{
+    padding-top: 60px;
+    color: #fc0050;
+    font-size: 40px;
+}
+
+.location-detail p{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.location-img img{
+    height: 400px;
+    width: 400px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.stars i{
+    font-size: 20px;
+    color: rgb(197, 167, 44);
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    padding:30px 0;
+}
+nav ul li{
+    display: inline;
+    list-style-type: none;
+    padding:10px 25px;
+}
+nav h1{
+    font-size: 35px;
+    letter-spacing:1px;
+    cursor:pointer;
+}
+nav ul li a{
+    text-decoration: none;
+    color:black;
+    padding:30px 20px;
+    font-weight: bold;
+    text-transform:capitalize;
+    cursor:pointer
+}
+nav li a:hover{
+   color:purple;
+   transition: .4s;
+}
+.ban .cn {
+    position: absolute;
+    top:50%;
+    left:8%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-around;
+}
+.cn img{
+    position: absolute;
+    top:50%;
+    left:180%;
+    transform: translateY(-50%);
+}
+.about{
+    width:100%;
+    padding:100px 0px;
+    background-color:rgb(#ff9b21e3, rgba(243, 199, 197, 0.863), rgba(210, 147, 101, 0.912));
+}
+.about img{
+    height:auto;
+    width:430px;
+}
+.about-text{
+    width:550px;
+}
+.ali{
+    text-align:center;
+    color:aqua;
+}
+.skills{
+    display:flex;
+    justify-content:space-around;
+    height:40vh;
+}
+.skills .skill1 li{
+    font-weight:bold;
+    line-height:70px;
+    font-size:40px;
+    color:purple;
+}
+.skills .skill2 li{
+    font-weight:bold;
+    line-height:70px;
+    font-size:40px;
+    color:purple;
+}
+.main{
+    width:1130px;
+    max-width:95%;
+    margin:0 auto;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+.about-text h2{
+  color:blueviolet;
+  font-size: 75px;
+  text-transform:capitalize;
+  margin-bottom: 20px;
+}
+.about-text h5{
+    color:black;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color:purple;
+letter-spacing: 1px;
+line-height: 28px;
+font-size: 18px;
+margin-bottom:45px;
+}
+.yel{
+    background-color:papayawhip;
+}
+.project{
+    background-color:bisque;
+}
+.project div{
+    width:700px;
+    margin:0 auto;
+}
+.project h1{
+    text-align:center;
+    font-size:75px;
+    padding:10px 75px;
+}
+.project div h2{
+    text-align:center;
+}
+.project div p{
+    color:purple;
+    letter-spacing: 1px;
+    line-height: 38px;
+    font-size: 28px;
+    margin-bottom:45px;
+}
+span{
+    color:purple;
+}
+h1 {
+    color:black;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+h3{
+    color:black;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4 {
+    color : purple;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
